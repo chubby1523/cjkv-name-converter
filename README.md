@@ -1,1 +1,1 @@
-# CJKV NAME CONVERTER
+# 中日韓越名飜譯
