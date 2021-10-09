@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+    <title>This is a document yes</title>
+</head>
+<body>
+    <marquee>Lorem ipsum dolor sit amet consectetur adipisicing elit. In expedita sunt itaque repell
+        endus. Beatae rem nobis quia repellat, deserunt quas iusto nemo molestiae deleniti ipsa aperiam saepe,
+         suscipit quisquam minima unde exercitationem voluptatum omnis. Ex, architecto, quos placeat blanditiis r0
+         atione porro consequatur, iste quas aut eveniet nesciunt! Fugit mollitia in minus voluptates praesentium n
+         on. Inventore eius accusamus earum repellat aliquam.</marquee>
+    {% for item in items%}
+    <p>{{item}}</p>
+    {% endfor %}
+</body>
+</html>
